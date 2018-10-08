@@ -1,6 +1,3 @@
-def fizz
-    fizz = []
-end
 
 def buzz(number, fizz)
         if number % 15 == 0
@@ -26,4 +23,5 @@ until number == 101
   print fizz[0..100]
   end
 end
+
 
