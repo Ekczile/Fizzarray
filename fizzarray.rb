@@ -1,3 +1,6 @@
+def fizz
+    fizz = []
+end
 
 def buzz(number, fizz)
         if number % 15 == 0
@@ -9,12 +12,11 @@ def buzz(number, fizz)
         else
             fizz<< number
         end
-  end
+end
 
 number = 1
 fizz = []
 
-puts "\n"
 
 until number == 101
   buzz(number, fizz)
