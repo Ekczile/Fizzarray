@@ -16,7 +16,7 @@ class Testing < Minitest::Test
         assert_equal(["Minds"], buzz(5, fizz))
     end
 
-    def test_4
+    def test_mined
         assert_equal(["Mined"], buzz(3, fizz))
     end
 
@@ -24,4 +24,8 @@ class Testing < Minitest::Test
         assert_equal([4], buzz(4, fizz))
     end
 
+    def test_6
+        assert_equal([17], buzz(17, fizz))
+    end
+    
 end
